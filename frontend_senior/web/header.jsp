@@ -8,13 +8,13 @@
         <script type="text/javascript" src="https://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-        <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
 
         <script type="text/javascript" src="recursos/js/geral/geral.js" charset="utf-8"></script>
         <script type="text/javascript" src="recursos/js/geral/localStorage.js" charset="utf-8"></script>
         <script type="text/javascript" src="recursos/js/geral/calendario.js" charset="utf-8"></script>
         <script type="text/javascript" src="recursos/js/geral/menu.js" charset="utf-8"></script>
-        <script type="text/javascript" src="recursos/js/bibliotecas/maskmoney.js" charset="utf-8"></script>
+        <!--<script type="text/javascript" src="recursos/js/bibliotecas/maskmoney.js" charset="utf-8"></script>-->
         <script type="text/javascript" src="recursos/js/bibliotecas/jquery.formatCurrency-1.4.0.js" charset="utf-8"></script>
         <script type="text/javascript" src="recursos/js/bibliotecas/jquery.formatCurrency.pt-BR.js" charset="utf-8"></script>
 

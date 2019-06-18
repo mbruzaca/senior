@@ -43,7 +43,7 @@
                 <td width="10"></td>
                 <td>
                     <div class="input-group">
-                        <input id="quantidade" type="number" class="form-control comAddon" name="quantidade">
+                        <input disabled id="quantidade" type="text" class="form-control comAddon" name="quantidade">
                         <span class="input-group-addon" id="addonQuantidade" style="font-family: 'Courier';">&nbsp&nbsp</span>
                     </div>
                 </td>
@@ -72,7 +72,7 @@
                 </td>
                 <td width="10"></td>
                 <td>
-                    <input class="form-control" onblur="validarDataValidade();" name="dataValidade" id="dataValidade" ng-model="dataValidade" name="dataValidade" ng-required='itemForm.perecivel.$modelValue' type="date">         
+                    <input class="form-control" onblur="validarDataValidade(true);" name="dataValidade" id="dataValidade" ng-model="dataValidade" name="dataValidade" ng-required='itemForm.perecivel.$modelValue' type="date">         
                     <span style="color: red; margin-left: 2px;" id="infoDataValidade"></span>
                 </td>
             </tr>

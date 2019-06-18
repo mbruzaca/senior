@@ -21,7 +21,7 @@ function listarItens() {
         trItem += "<td>" + itens[a].nome + "</td>";
         trItem += "<td>" + itens[a].unidadeMedida + "</td>";
         trItem += "<td>" + itens[a].quantidade + " " + unidadeMedidaAddon(itens[a].unidadeMedida) + "</td>";
-        trItem += "<td>" + converterDoubleParaReal(itens[a].preco,false) + "</td>";
+        trItem += "<td>" + converterDoubleParaReal(itens[a].preco, false) + "</td>";
         trItem += "<td>" + (itens[a].perecivel ? 'Sim' : 'Não') + "</td>";
         trItem += "<td>" + converterParaPtBr(itens[a].dataValidade) + "</td>";
         trItem += "<td>" + converterParaPtBr(itens[a].dataFabricacao) + "</td>";
@@ -36,6 +36,7 @@ function listarItens() {
 
 function options_pt_br() {
     return {
+        ordering: false,
         autoWidth: false,
         responsive: true,
         language: {
