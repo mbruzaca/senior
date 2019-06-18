@@ -1,0 +1,366 @@
+.form-control{
+    display: inline-block !important;
+}
+
+#ui-datepicker-div{
+    z-index: 35000 !important;
+}
+
+.alerta-danger {
+    /* color: #ffffff; */
+    background-color: #F44336 !important;
+    border-color: #F44336 !important;
+}
+
+.alerta-success {
+    /* color: #ffffff; */
+    background-color: #00a65a !important;
+    border-color: #00a65a !important;
+}
+
+.alerta {
+    margin-top: 5px;
+    padding: 10px 15px;
+    border-radius: 2px;
+    position: relative;
+    color: white;
+    background-color: #f09609;
+    border: none !important;
+}
+
+html,body{
+
+    margin: 0;
+    background-color: #F4F5F7;
+    /*background-repeat: repeat;*/
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Montserrat !important;
+    font-family: "Open Sans" !important;
+    color: black;
+
+} 
+ul > li > a .jstree-icon {
+    display: none !important;
+}
+
+.altRowClass { background-color: #e2e2e2 !important; background-image: none; }
+
+.tableForm tr{
+    font-weight: 100 !important;
+    font-size: 13px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.tableForm td{
+    font-weight: 500;
+}
+
+.tableForm input{
+    line-height: normal !important;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.comAddon{
+    width: 183px !important;
+}
+
+.tableForm input[type=text]{
+    width: 225px;
+}
+
+.tableForm input[type=number]{
+    width: 225px;
+}
+.tableForm input[type=date]{
+    width: 225px;
+}
+
+.tableForm select{
+    line-height: normal !important;
+    font-size: 11px;
+    font-weight: 500;
+    width: 225px;
+}
+
+.tableForm textarea{
+    font-weight: 500;
+}
+
+.tableForm label{
+    font-weight: 500;
+}
+.tableFormSmall tr{
+    font-family: "Open Sans";
+    font-weight: 100 !important;
+    font-size: 11px;
+    line-height: 20px;
+}
+label{
+    font-weight: bold;
+}
+.tableFormSmall input{
+    font-weight: 600;
+    line-height: normal !important;
+    font-size: 9px;
+}
+.tableFormSmall select{
+    line-height: normal !important;
+    font-size: 9px;
+}
+/*.ui-jqgrid-bdiv{
+    width: 101% !important;
+}
+
+.ui-state-default.ui-jqgrid-hdiv{
+    width: 99.7% !important;
+    float: left;
+}
+
+#gview_gridDashboardPrecos .ui-state-default.ui-jqgrid-hdiv{
+    width: 801px !important;
+}*/
+
+.cursor{
+    cursor: pointer;
+}
+
+.simpleLink{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.simpleLink:hover{
+    color: #185C8A;
+}
+
+.menuDashboardAtivo{
+    color: black !important;
+}
+
+.menuDashboard{
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #B1B1B1;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.menuDashboard:hover{
+    color: #C3C3C3;
+}
+
+.boxLegenda{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.legendaCor{
+    color: white;
+    border-radius: 200px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.legendaCor10{
+    color: white;
+    border-radius: 200px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 22px !important;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.valoresDashboard{
+    color: rgba(0, 0, 255, 0.75);
+    font-weight: 600;
+}
+
+.dash{
+    display: inline-block;
+    margin-top: 10px !important;
+    margin-left: 5px !important;
+}
+
+h3{
+    font-size: 20px !important;
+}
+
+.divConteudo{
+    background-color: rgba(240,240,240,0.95);
+    margin: 0;
+    height: 100%;
+    /*width: 100%;*/
+    overflow: auto;
+}
+
+.conteudo{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.newBox{
+    color: rgba(0,0,0,0.6);
+    border: 1px rgba(221,221,221,0.3) solid;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 7px 2px rgba(135,158,171,.2);
+}
+
+.msgNaoLida{
+    background-color: rgba(255,235,59,0.35) !important;
+    box-shadow: 0 1px 5px 2px rgba(135,158,171,.2);
+}
+
+.divTxtMsg{
+    max-width: 375px; 
+    height: auto;
+    word-wrap: break-word;
+    font-size: 12px;
+}
+
+.divMsg{
+    margin-top: 10px;
+    background-color: rgba(255,235,59,0.16);
+    min-height: 60px;
+    width: 90%; 
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#divMsgs{
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: -10px;
+    background-color: #fff;
+    width: 600px;
+    height: 450px;
+    box-shadow: 0 1px 2px 2px rgba(135,158,171,0.15);
+}
+
+.botaoTopo{
+    height: 100%;
+    width: 65px;
+    text-align: center;
+    color: #858598;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.botaoTopo:hover{
+    color: #03A9F4;
+}
+
+.iconeBotaoTopo{
+
+}
+
+.newButton{
+    font-weight: 600;
+    border: 1px #DDD solid;
+    padding: 5px 12px 5px 12px;
+    background-color: inherit;
+    border-radius: 3px;
+}
+
+.newButton:hover{
+    background-color: #C7C7C7;
+    /*box-shadow: 0 6px 10px rgba(0,0,0,.23),0 10px 30px rgba(0,0,0,.19);*/
+}
+
+.hoverOpacity{
+    cursor: pointer;
+}
+
+.hoverOpacity:hover{
+    opacity: 0.8;
+}
+
+.newButtonSuccess{
+    background-color: #00acac;
+    color: white;
+    /*text-shadow: -0.2px 0 black, 0 0.2px black, 0.2px 0 black, 0 -0.2px black;*/
+}
+.newButtonSuccess:hover{
+    background-color: #008a8a;
+    /*box-shadow: 0 6px 10px rgba(0,0,0,.23),0 10px 30px rgba(0,0,0,.19);*/
+}
+.newButtonAlt{
+    background-color: #348fe2;
+    color: white;
+    /*text-shadow: -0.2px 0 black, 0 0.2px black, 0.2px 0 black, 0 -0.2px black;*/
+}
+.newButtonAlt:hover{
+    background-color: #2a72b5;
+    /*box-shadow: 0 6px 10px rgba(0,0,0,.23),0 10px 30px rgba(0,0,0,.19);*/
+}
+.newButtonDanger{
+    background-color: #cc4946;
+    color: white;
+    /*text-shadow: -0.2px 0 black, 0 0.2px black, 0.2px 0 black, 0 -0.2px black;*/
+}
+.newButtonDanger:hover{
+    background-color: #c9302c;
+    /*box-shadow: 0 6px 10px rgba(0,0,0,.23),0 10px 30px rgba(0,0,0,.19);*/
+}
+.newDashboard{
+    position: relative;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.newDashboard:hover{
+    opacity: 0.85;
+}
+
+.barraTopoDireito{
+    position: relative;
+    background-color: #fff;
+    height: 60px;
+    border-bottom: 1px #ddd solid;
+}
+
+.contaTopo{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    height: 35px;
+    color: rgba(0,0,0,0.6);
+}
+
+.contaTopoUsuarioLogado{
+    font-weight: 700;
+    cursor: pointer;
+}
+.contaTopoUsuarioLogado:hover{
+    color: #03A9F4;
+}
+
+.newDashboardDivSuperior{
+    width: 100%;
+}
+
+.newDashboardTitle{
+    position: absolute;
+    bottom: 7px;
+    right: 12px;
+    font-size: 13px;
+}
+
