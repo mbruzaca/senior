@@ -1,6 +1,6 @@
 var app = angular.module("moduloItens", [])
         .controller("controladorItens", function ($scope) {
-            
+
         });
 
 
@@ -54,3 +54,28 @@ function loading(v) {
     }
 }
 
+function converterRealParaDouble(valor) {
+    try {
+        return new Number(replaceAll(',', '.', replaceAll('.', '', valor)).replace("R$ ", "")).toFixed(2);
+    } catch (x) {
+        return new Number(0).toFixed(2);
+    }
+}
+
+function converterDoubleParaReal(valor, comRs) {
+    try {
+        $("#x").val(valor);
+        $("#x").formatCurrency({region: "pt-BR"});
+        return (comRs ? $("#x").val() : $("#x").val().replace("R$ ", ""));
+    } catch (x) {
+        return (comRs ? "R$ 0,00" : "0,00");
+    }
+}
+
+function escapeRegExp(str) {
+    return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+}
+
+function replaceAll(find, replace, str) {
+    return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+}

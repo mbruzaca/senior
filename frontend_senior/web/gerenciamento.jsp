@@ -10,7 +10,8 @@
     <div style="font-size: 10px;">(<span style="color: red;">*</span> representa a obrigatoriedade dos campos)</div>
     <br>
 
-    <form name="itemForm" id="itemForm">
+    <form name="itemForm" id="itemForm" onsubmit="return salvar();">
+        <input type="hidden" name="id" id="id" value="">
         <table class="tableForm">
             <tr>
                 <td>
@@ -29,7 +30,7 @@
                 </td>
                 <td width="10"></td>
                 <td>
-                    <select class="form-control" onchange="onChangeUnidadeMedida(this);" ng-model="unidadeMedida" name="unidadeMedida">
+                    <select required class="form-control" onchange="onChangeUnidadeMedida(this);" ng-model="unidadeMedida" name="unidadeMedida">
                         <option value="">Selecione</option>
                         <option>Litro</option>
                         <option>Quilograma</option>
@@ -54,14 +55,14 @@
                 </td>
                 <td width="10"></td>
                 <td>
-                    <input class="form-control" type="text" name="preco" required ng-model="preco">
+                    <input value="R$ 0,00" class="form-control" type="text" name="preco" required ng-model="preco">
                 </td>
             </tr>
             <tr>
                 <td>Perecível</td>
                 <td width="10"></td>
                 <td>
-                    <input onchange="onChangePerecivel(this);" style="transform: scale(1.3); margin-left: 2px;" class="cursor" type="checkbox" name="perecivel" id="perecivel" ng-model="perecivel">
+                    <input onchange="onChangePerecivel();" style="transform: scale(1.3); margin-left: 2px;" class="cursor" type="checkbox" name="perecivel" id="perecivel" ng-model="perecivel">
                 </td>
             </tr>
             <tr>
@@ -71,7 +72,7 @@
                 </td>
                 <td width="10"></td>
                 <td>
-                    <input class="form-control" onblur="validarDataValidade(this);" name="dataValidade" id="dataValidade" ng-model="dataValidade" name="dataValidade" ng-required='itemForm.perecivel.$modelValue' type="date">         
+                    <input class="form-control" onblur="validarDataValidade();" name="dataValidade" id="dataValidade" ng-model="dataValidade" name="dataValidade" ng-required='itemForm.perecivel.$modelValue' type="date">         
                     <span style="color: red; margin-left: 2px;" id="infoDataValidade"></span>
                 </td>
             </tr>
@@ -82,7 +83,7 @@
                 </td>
                 <td width="10"></td>
                 <td>
-                    <input class="form-control" onblur="validarDataFabricacao(this)" name="dataFabricacao" id="dataFabricacao" ng-model="dataFabricacao" required type="date">                
+                    <input class="form-control" onblur="validarDataFabricacao()" name="dataFabricacao" id="dataFabricacao" ng-model="dataFabricacao" required type="date">                
                 </td>
             </tr>
         </table>

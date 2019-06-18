@@ -39,7 +39,6 @@ function converterParaPtBr(dt) {
 
 function converterParaYYYYMMDD(dt, numero) {
     var x = dt.substring(6) + (!numero ? "-" : "") + dt.substring(3, 5) + (!numero ? "-" : "") + dt.substring(0, 2);
-    alert(x)
     return (numero ? new Number(x) : x);
 }
 
